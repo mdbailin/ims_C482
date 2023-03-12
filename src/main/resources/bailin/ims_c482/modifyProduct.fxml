@@ -1,14 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="bailin.ims_c482.ModifyProduct"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bailin.ims_c482.modifyProduct">
+    <children>
+        <Label layoutX="14.0" layoutY="14.0" text="Modify Product">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <Label layoutX="30.0" layoutY="198.0" text="Product ID">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="30.0" layoutY="378.0" text="Maximum">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="30.0" layoutY="333.0" text="Price">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="30.0" layoutY="288.0" text="Inventory">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="30.0" layoutY="243.0" text="Name">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="237.0" layoutY="378.0" text="Minimum">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nameField" layoutX="125.0" layoutY="237.0" prefHeight="37.0" prefWidth="308.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="idField" alignment="TOP_LEFT" disable="true" editable="false" layoutX="125.0" layoutY="192.0" prefHeight="37.0" prefWidth="92.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="invField" layoutX="125.0" layoutY="282.0" prefHeight="37.0" prefWidth="92.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="minField" layoutX="325.0" layoutY="372.0" prefHeight="37.0" prefWidth="110.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="priceCostField" layoutX="125.0" layoutY="327.0" prefHeight="37.0" prefWidth="92.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="maxField" layoutX="125.0" layoutY="372.0" prefHeight="37.0" prefWidth="92.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <TableView fx:id="partTableView" layoutX="483.0" layoutY="79.0" onMouseClicked="#onPartTableViewClick" prefHeight="200.0" prefWidth="596.0">
+            <columns>
+                <TableColumn fx:id="partIDAddColumn" prefWidth="70.0" text="Part ID" />
+                <TableColumn fx:id="partNameAddColumn" prefWidth="280.0" text="Part Name" />
+                <TableColumn fx:id="partInventoryLevelAddColumn" minWidth="0.0" prefWidth="100.0" text="Inventory Level" />
+                <TableColumn fx:id="partPricePerUnitAddColumn" prefWidth="145.0" text="Price Per Unit" />
+            </columns>
+        </TableView>
+        <TableView fx:id="associatedPartsTableView" layoutX="483.0" layoutY="343.0" onMouseClicked="#onAssociatedPartTableViewClick" prefHeight="200.0" prefWidth="596.0">
+            <columns>
+                <TableColumn fx:id="associatedPartsIDColumn" prefWidth="70.0" text="Part ID" />
+                <TableColumn fx:id="associatedPartsNameColumn" prefWidth="280.0" text="Part Name" />
+                <TableColumn fx:id="associatedPartsInventoryLevelColumn" prefWidth="100.0" text="Inventory Level" />
+                <TableColumn fx:id="associatedPartsPricePerUnitColumn" prefWidth="145.0" text="Price per Unit" />
+            </columns>
+        </TableView>
+        <TextField fx:id="searchField" layoutX="681.0" layoutY="36.0" onKeyPressed="#onInventoryPartsSearchTextField" prefHeight="25.0" prefWidth="200.0">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </TextField>
+        <Button fx:id="cancelButton" layoutX="1006.0" layoutY="551.0" mnemonicParsing="false" onAction="#onCancelButton" prefHeight="37.0" prefWidth="73.0" text="Cancel">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="deleteButton" layoutX="922.0" layoutY="551.0" mnemonicParsing="false" onAction="#onDeleteButton" prefHeight="37.0" prefWidth="73.0" text="Delete">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="saveButton" layoutX="837.0" layoutY="551.0" mnemonicParsing="false" onAction="#onSaveButton" prefHeight="37.0" prefWidth="73.0" text="Save">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="addButton" layoutX="1006.0" layoutY="287.0" mnemonicParsing="false" onAction="#onAddButton" prefHeight="37.0" prefWidth="73.0" text="Add">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+    </children>
 </AnchorPane>

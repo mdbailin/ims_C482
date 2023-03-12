@@ -5,16 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0d98942-f388-455b-a0f0-2ea1c67c8ea4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/model/InHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/model/Outsourced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/model/Part.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/addPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/addPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/addProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/addProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/modifyPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/modifyPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/modifyProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bailin/ims_c482/modifyProduct.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/addPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/addPart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/addProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/addProduct.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/modifyPart.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/modifyPart.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/modifyProduct.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bailin/ims_c482/modifyProduct.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MoXjXZq8Y4d0l04liaPLNbhoJN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,12 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/bailin/ims_c482" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ims_C482" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bailin.ims_c482.Main" />
+      <module name="ims_C482" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
